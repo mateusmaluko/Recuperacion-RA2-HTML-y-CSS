@@ -40,15 +40,29 @@ footer {
 
 .llista-viatges {
   display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.viatge {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .viatge img {
   width: 200px;
   height: auto;
+  border-radius: 10px;
 }
 
+.viatge h3 {
+  margin: 0;
+}
+
+.viatge p {
+  margin: 5px 0 0 0;
+}
 form {
   max-width: 500px;
   margin: auto;
