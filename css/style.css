@@ -1,9 +1,12 @@
+/* ======== ESTIL GENERAL ======== */
 body {
   font-family: Arial, sans-serif;
+  font-size: 15px;
   margin: 0;
   padding: 0;
 }
 
+/* ======== CAPÇALERA I MENÚ ======== */
 header {
   background-color: #333;
   color: white;
@@ -13,6 +16,7 @@ header {
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
   display: flex;
   gap: 15px;
 }
@@ -22,26 +26,37 @@ nav a {
   text-decoration: none;
 }
 
-main {
-  padding: 20px;
+/* ======== CONTINGUT GENERAL ======== */
+main, section, article, p, li {
+  padding: 0 20px;
+  text-align: justify;
 }
 
-footer {
-  background-color: #f2f2f2;
-  text-align: center;
-  padding: 10px;
+/* ======== TÍTOLS ======== */
+h1, h2, h3 {
   margin-top: 20px;
 }
 
+/* ======== PEU DE PÀGINA (CENTRAT) ======== */
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* ======== IMATGE DE PRESENTACIÓ ======== */
 .foto {
   width: 150px;
   border-radius: 50%;
 }
 
+/* ======== LLISTAT DE VIATGES ======== */
 .llista-viatges {
   display: flex;
-  gap: 30px;
   flex-direction: column;
+  gap: 30px;
+  padding: 20px;
 }
 
 .viatge {
@@ -63,14 +78,33 @@ footer {
 .viatge p {
   margin: 5px 0 0 0;
 }
+
+/* ======== FORMULARI DE CONTACTE (A L'ESQUERRA) ======== */
 form {
   max-width: 500px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
 }
 
-form input, form select, form textarea {
+form input,
+form select,
+form textarea {
   width: 100%;
   margin-bottom: 10px;
   padding: 8px;
+  font-size: 14px;
 }
 
+form button {
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
