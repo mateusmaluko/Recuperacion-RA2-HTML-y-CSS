@@ -85,6 +85,27 @@ footer {
 .viatge p {
   margin: 5px 0 0 0;
 }
+/*------------------------------------------------ */
+.viatge2 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.viatge2 img {
+  width: 50px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.viatge2 h3 {
+  margin: 0;
+}
+
+.viatge2 p {
+  margin: 5px 0 0 0;
+}
+
 
 /* ======== FORMULARI DE CONTACTE (A L'ESQUERRA) ======== */
 form {
