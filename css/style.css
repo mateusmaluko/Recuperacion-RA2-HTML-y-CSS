@@ -142,3 +142,10 @@ form button:hover {
   margin: 0 auto;
   padding: o 20px;
 }
+.img-viaje {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 15px auto;
+}
